@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Диплом</title>
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>
+	<div>
+		<p>Введите тему, задачу и срок выполнения</p>
+		<form id="inp">
+			<input type="text" class="form_input" placeholder="тема" name="topic">
+			<input type="text" class="form_input" placeholder="задача" name="task">
+			<input type="datetime-local" class="form_input" name="date">
+			<button class="form_button" id="btn">Добавить</button>
+		</form>
+	</div>
+
+
+	<div class="root">
+		<div class="categories" id="categories"></div>
+		<div class="todo" id="list">
+		</div>
+	</div>
+
+
+	<script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
+	<script src="script.js"></script>
+
+</body>
+</html>
+

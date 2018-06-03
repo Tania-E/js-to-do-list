@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	padding: 10px;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.form_input {
+	font-size: 16px;
+    padding: 4px;
+}
+
+.btn {
+	padding: 1px 11px;
+}
+
+.btn_style {
+	margin: 0 7px;
+}
+
+
+
+
+.root {
+	display: flex;
+	flex-direction: row;
+	margin: 15px 0 0 0;
+	background-color: #d8d8d8;
+}
+
+.categories {
+/*	background-color: #9f9f9f;*/
+	width: 20%;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.category {
+	font-size: 17px;
+	padding: 4px;
+}
+
+.category:hover {
+/*	color: darkgray;*/
+	font-weight: bold
+}
+
+.todo {
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+
+
+
+.todo_item {
+	background-color: #fff;
+	border-radius: 4px;
+	margin: 5px;
+	padding: 10px;
+	width: 200px;
+	box-shadow: 0 3px 9px rgba(0,0,0,0.2);
+	position: relative;
+}
+
+.item_done {
+	color: #d3d3d3;
+	background-color: #fff;
+	border-radius: 4px;
+	margin: 5px;
+	padding: 10px;
+	width: 200px;
+	box-shadow: 0 3px 9px rgba(0,0,0,0.2);
+	position: relative;
+}
+
+.todo_item_btn1 {
+	color: green;
+}
+
+.todo_item_btn2 {
+	color: red;
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	font-size: 9px;
+	padding: 0px 2px;
+}
+
+.todo_item_h2 {
+	text-decoration: underline;
+	font-size: 17px;
+}
+
+.todo_item_p {
+	word-wrap: break-word;
+}
+
+.todo_item_create {
+	font-size: 10px;
+}
+
+.todo_item_end {
+	font-size: 10px;
+}
+
+.deadline {
+	background-color: #f8bfbf;
+	border-radius: 4px;
+	margin: 5px;
+	padding: 10px;
+	width: 200px;
+	box-shadow: 0 3px 9px rgba(0,0,0,0.2);
+	position: relative;
+}
